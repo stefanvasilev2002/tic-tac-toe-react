@@ -34,7 +34,17 @@
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
-
+.winning{
+  background-color: #007bff;
+  width: 80px;
+  height: 80px;
+  font-size: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
 .square:hover {
   background-color: palegreen;
 }
@@ -71,7 +81,7 @@
   margin: 5px;
 }
 
-.game-info button {
+.game-info button{
   background: none;
   border: none;
   color: #fff;
